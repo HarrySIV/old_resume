@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
 
+:root {
+   --iceblue: rgba(34, 197, 242, 0.35);
+   --textcolor: rgba(50, 50, 50, 0.7);
+ }
+
 * {
    box-sizing: border-box;
 }

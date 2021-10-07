@@ -1,3 +1,8 @@
+:root {
+  --iceblue: rgba(34, 197, 242, 0.35);
+  --textcolor: rgba(50, 50, 50, 0.7);
+}
+
 html {
   font-family: sans-serif;
 }
