@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
 
+:root {
+  --iceblue: rgba(34, 197, 242, 0.35);
+  --textcolor: rgba(50, 50, 50, 0.7);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -16,6 +21,7 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
 
 .container {
   background-color: rgba(0, 0, 0, 0.4);
@@ -100,18 +106,21 @@ body {
 }
 
 #back {
+  background-color: var(--iceblue);
+  border: 0.5rem solid var(--iceblue);
+  border-radius: 25%;
   color: white;
-  text-decoration: none;
-  font-size: 5rem;
-  padding: 20px;
+  font-size: 2rem;
+  padding: 0.5rem;
   position: absolute;
   top: 0;
   left: 0;
-  border: 1px dotted --textcolor;
-  background-color: var(--iceblue);
+  text-decoration: none;
 }
 
 #back:hover {
+  background-color: white;
+  border: 0.5rem solid white;
   color: black;
 }
 
