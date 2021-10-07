@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+:root {
+   --iceblue: rgba(34, 197, 242, 0.35);
+   --textcolor: rgba(50, 50, 50, 0.7);
+}
+
+body {
+   color: var(--textcolor);
+   font-family: Mate, Arial, sans-serif;
+   background-color: white;
+   margin: 0;
+   background-image: url("pictures/iceberg.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 176vh;
+}
+
+br {
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
+   font-family: Nunito sans, Mate, Arial, sans-serif;
+   color: rgba(34, 197, 242);
+   font-size: 3.75rem;
+   margin: 0;
+   padding: 400px 0 0 0;
+   text-align: center;
+}
+
+h2, h3 {
+   color: var(--textcolor);
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+hr {
+   border-color: var(--textcolor);
+   border-style: none;
+   border-top-style: dotted;
+   border-width: .05rem;
+   margin: 0;
+   width: 100%;
+}
+
+th {
+   color: var(--textcolor);
+   background-color: #FFF5EB;
+}
+
+a, li, table, p {
+   color: var(--textcolor);
+   font-size: 1.25rem;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   color: black;
+}
+
+p {
+   color: var(--textcolor);
+   text-align: center;
+}
+
+.altcontainer {
+   background-color: var(--iceblue);
+   height: 100%;
+}
+
+.bar {
+   text-decoration: none;
+   text-decoration-color: var(--textcolor);
+}
+
+.container {
+   height: 100vh;
+}
+
+.copyright {
+   color: white;
+   background-color: var(--iceblue);
+   margin: 0;
+   padding: 10px;
+}
+
+.experience {
+   padding: 5px;
+   border-spacing: 1px;
+   border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.experience:hover {
+   background-color: #FFF5EB;
+}
+
+.flex {
+   display: flex;
+   flex: initial;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
+}
+
+.heading {
+   padding: 20px;
+}
+
+.link {
+   font-size: 2.5625rem;
+   text-align: center;
+}
+
+.navigation {
+   position: fixed;
+   right: 20px;
+   top: 5px;
+   padding: 5px;
+}
+
+.projects {
+   background-color: white;
+   border-radius: 50%;
+   border: 1px solid rgba(0, 0, 0, 0.4);
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+   color: var(--textcolor);
+   margin: 20px auto;
+   padding: 30px;
+   width: 300px;
+
+}
+
+.projects:hover {
+   color: black;
+   background-color: var(--iceblue);
+}
+
+.projects:active {
+   transform: scale(0.96);
+}
+
+.table {
+   border-spacing: 20px;
+}
+
+#message-box {
+   height: 3rem;
+}
+
+#table_experience {
+   border-spacing: 1px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 400px;
+}

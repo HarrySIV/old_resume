@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #FFED99;
+   font-family: 'Mate', sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   overflow: hidden;
+   margin: 0;
+   padding: 20px;
+}
+
+.container {
+   text-decoration-color: #3B14A7;
+   background-color: #F6B8B8;
+   border-radius: 10px;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+   padding: 50px 20px;
+   text-align: center;
+   max-width: 100%;
+   width: 800px;
+}
+
+h3 {
+   margin: 0;
+   opacity: 0.5;
+   letter-spacing: 1px;
+}
+
+.joke {
+   font-size: 30px;
+   letter-spacing: 1px;
+   line-height: 40px;
+   margin: 50px auto;
+   max-width: 600px;
+}
+
+.btn {
+   background-color: #AC66CC;
+   border: 0;
+   border-radius: 10px;
+   color: white;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+   padding: 14px 40px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.btn:active {
+   transform: scale(0.98);
+}
+
+.btn:focus {
+   outline: 0;
+}
+
+#back {
+   color: white;
+   text-decoration: none;
+   font-size: 5rem;
+   padding: 20px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   border: 1px dotted --textcolor;
+   background-color: var(--iceblue);
+ }
+ 
+ #back:hover {
+   color: black;
+ }
+ 
+ #back:active {
+   transform: scale(96%);
+ }
