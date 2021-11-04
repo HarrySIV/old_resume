@@ -70,6 +70,14 @@ p {
    text-align: center;
 }
 
+form {
+   padding: 2rem;
+}
+
+td {
+   padding: 0.25rem;
+}
+
 .altcontainer {
    background-color: var(--iceblue);
    height: 75%;
@@ -120,20 +128,21 @@ p {
 
 .navigation {
    position: fixed;
-   right: 20px;
+   right: 1.25rem;
    top: 5px;
    padding: 1rem;
 }
 
 .projects {
    background-color: white;
-   border-radius: 50%;
+   border-radius: 2rem;
    border: 1px solid rgba(0, 0, 0, 0.4);
    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
    color: var(--textcolor);
-   margin: 20px auto;
-   padding: 30px;
-   width: 300px;
+   margin: 1.25rem auto;
+   padding: 1.875rem;
+   width: 18.75rem;
+   height: 6.25rem;
 
 }
 
@@ -144,6 +153,15 @@ p {
 
 .projects:active {
    transform: scale(0.96);
+}
+
+.projects_card {
+   background-color: rgba(33, 188, 231, 0.35);
+   border-radius: 1rem;
+   box-shadow: 0.5rem 0.5rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
+   margin: 1rem;
+   width: fit-content;
+
 }
 
 .table {
