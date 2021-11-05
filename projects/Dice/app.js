@@ -56,6 +56,7 @@ class Creature {
       let noHealsLeftText = document.createTextNode(`${this.name} has no heals left and cannot heal`);
       messageBox.appendChild(noHealsLeftText);
       textBreak();
+      textBreak();
     }
   }
 
