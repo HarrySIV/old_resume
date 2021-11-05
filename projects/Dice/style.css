@@ -1,0 +1,122 @@
+:root {
+  --button-color: #ff0062;
+  --active-button-color: #ff006263;
+}
+
+* {
+   font-family: Helvetica, Arial, sans-serif;
+   text-align: center;
+ }
+
+ body {
+  background: #2c2c2c;
+ }
+
+h2 {
+  flex-direction:r ;
+  font-size: 1.25rem;
+  margin: 1rem 0.5rem;
+}
+
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 80%;
+  height: 2rem;
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+}
+
+progress[value]::-webkit-progress-bar,
+progress[value] {
+  background-color: #eee;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #a927f5;
+  transition: all 0.2s ease-out;
+}
+
+progress[value]::-moz-progress-bar {
+  background-color: #a927f5;
+  transition: all 0.2s ease-out;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: var(--active-button-color);
+  border-color: var(--button-color);
+  transform: scale(97%);
+}
+
+ button {
+  background: var(--button-color);
+  border: 1px solid var(--button-color);
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+#displayText {
+  height: 50vh;
+  width: 75vh;
+  padding: 3.125rem;
+  margin: 3.125rem auto;
+  border: 1px solid gray;
+  border-radius: 10px;  
+  font-size: 5rem;
+  background: white;
+  overflow-y: auto;
+  font-size: medium;
+  font-style: italic;
+  text-align: left;
+}
+ 
+ #placeholder {
+   height: 6.25rem;
+   width: 6.25rem;
+   padding: 3.125rem;
+   margin: 3.125rem auto;
+   border: 1px solid gray;
+   border-radius: 10px;  
+   font-size: 5rem;
+ }
+
+
+
+#health-levels,
+#controls {
+  margin: 2rem auto;
+  width: 30rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background: white;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+}
+
+#bonus-life {
+  font-weight: bold;
+  color: white;
+  background: var(--button-color);
+  border: 1px solid var(--button-color);
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 0.5rem;
+}
