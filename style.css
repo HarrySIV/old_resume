@@ -27,14 +27,20 @@ h1 {
    color: rgba(34, 197, 242);
    font-size: 3.75rem;
    margin: 0;
-   padding: 400px 0 0 0;
+   padding: 0;
    text-align: center;
 }
 
-h2, h3 {
+h2 {
    color: var(--textcolor);
    margin: 0;
    padding: 0;
+   text-align: center;
+}
+
+h3 {
+   color: black;
+   margin: 1rem;
    text-align: center;
 }
 
@@ -121,6 +127,10 @@ td {
    padding-right: 1rem;
 }
 
+.languages {
+   padding: 20rem 0 0 0;
+}
+
 .link {
    font-size: 2.5625rem;
    text-align: center;
@@ -128,7 +138,7 @@ td {
 
 .navigation {
    position: fixed;
-   right: 1.25rem;
+   right: 0.5rem;
    top: 5px;
    padding: 1rem;
 }
@@ -159,13 +169,22 @@ td {
    background-color: rgba(33, 188, 231, 0.35);
    border-radius: 1rem;
    box-shadow: 0.5rem 0.5rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
-   margin: 1rem;
+   margin: 2rem;
    width: fit-content;
 
 }
 
+.projects_page {
+   background-image: none;
+   overflow-y: hidden;
+}
+
 .table {
    border-spacing: 20px;
+}
+
+#mainTitle {
+   padding: 25rem 0 0 0;
 }
 
 #message-box {
