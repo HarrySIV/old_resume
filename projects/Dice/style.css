@@ -13,7 +13,6 @@
  }
 
 h2 {
-  flex-direction:r ;
   font-size: 1.25rem;
   margin: 1rem 0.5rem;
 }
@@ -72,7 +71,7 @@ button:active {
   width: 75vh;
   padding: 3.125rem;
   margin: 3.125rem auto;
-  border: 1px solid gray;
+  border: 1px solid rgb(205, 127, 50);
   border-radius: 10px;  
   font-size: 5rem;
   background: white;
@@ -110,13 +109,30 @@ button:active {
   flex-direction: column;
 }
 
-#bonus-life {
-  font-weight: bold;
-  color: white;
-  background: var(--button-color);
-  border: 1px solid var(--button-color);
-  padding: 0.15rem 0.5rem;
-  border-radius: 10px;
-  text-align: center;
-  margin: 0 0.5rem;
+#characterCreationModal {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+#foreground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vh;
+  height: fit-content;
+  overflow: hidden;
+  margin: 20vh auto;
+  background-color: antiquewhite;
+  padding: 1rem;
+  border-radius: 10%;
+}
+
+#characterCreationForm {
+  padding: 2rem;
+  z-index: 3;
 }

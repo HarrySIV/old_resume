@@ -8,6 +8,33 @@
     <title>Fight something</title>
 </head>  
 <body>
+  <div id="characterCreationModal" class="background">
+    <div id="foreground">
+      <form id="characterCreationForm">
+        <table>
+          <tr>
+            <td><label for="playerName" class="formLabel">Character Name:</label></td>
+            <td><input type="text" class="formInput" id="playerName" required></td>
+          </tr>
+          <!-- <tr>
+            <td><label for="playerClass" class="formLabel">Class:</label></td>
+            <td>        
+              <select class="formInput" id="playerClass">
+                <option value="fighter">Fighter</option>
+                <option value="rogue">Rogue</option>
+                <option value="barbarian">Barbarian</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="playerStats" class="formLabel">Stats:</label></td>
+            <td><input type="text" class="formInput" id="playerStats"></td>
+          </tr> -->
+        </table>
+      </form>
+      <button id="beginBtn" class="btn">Begin</button>
+    </div>
+  </div>
   <!-- <section id="health-levels">
     <h2>MONSTER HEALTH</h2>
     <progress id="monster-health" max="100" value="100">100%</progress>
