@@ -1,4 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
 
+:root {
+   --iceblue: rgba(34, 197, 242, 0.35);
+   --textcolor: rgba(50, 50, 50, 0.7);
+}
+
+body {
+   color: var(--textcolor);
+   font-family: Mate, Arial, sans-serif;
+   background-color: white;
+   margin: 0;
+   background-image: url("/rport/src/pictures/iceberg.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 176vh;
+}
+
+br {
+   margin: 0;
+   padding: 0;
+}
+
+.copyright {
+   color: white;
+}
 
 h1 {
    font-family: Nunito sans, Mate, Arial, sans-serif;
