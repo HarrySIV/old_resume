@@ -14,7 +14,7 @@ body {
    background-image: url("pictures/iceberg.png");
    background-repeat: no-repeat;
    background-position: center;
-   height: 176vh;
+   height: 170vh;
 }
 
 br {
@@ -44,7 +44,7 @@ h2 {
 
 h3 {
    color: black;
-   margin: 1rem;
+   margin: 0;
    text-align: center;
 }
 
@@ -90,7 +90,7 @@ td {
 
 .altcontainer {
    background-color: var(--iceblue);
-   height: 75%;
+   height: fit-content;
 }
 
 .bar {
