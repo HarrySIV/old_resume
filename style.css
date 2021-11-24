@@ -11,7 +11,7 @@ body {
    font-family: Mate, Arial, sans-serif;
    background-color: white;
    margin: 0;
-   background-image: url("/rport/src/pictures/iceberg.png");
+   background-image: url("pictures/iceberg.png");
    background-repeat: no-repeat;
    background-position: center;
    height: 176vh;
