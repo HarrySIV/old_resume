@@ -17,11 +17,6 @@ body {
    height: 170vh;
 }
 
-br {
-   margin: 0;
-   padding: 0;
-}
-
 .copyright {
    color: white;
 }
@@ -35,20 +30,13 @@ h1 {
    text-align: center;
 }
 
-h2 {
+h2, h3, table {
    color: var(--textcolor);
    margin: 0;
-   padding: 0;
    text-align: center;
 }
 
-h3 {
-   color: black;
-   margin: 0;
-   text-align: center;
-}
-
-hr {
+hr, br {
    border-color: var(--textcolor);
    border-style: none;
    border-top-style: dotted;
@@ -62,12 +50,9 @@ th {
    background-color: #FFF5EB;
 }
 
-a, li, table, p {
+a {
    color: var(--textcolor);
    font-size: 1.25rem;
-}
-
-a {
    text-decoration: none;
 }
 
@@ -77,25 +62,19 @@ a:hover {
 
 p {
    color: var(--textcolor);
+   font-size: 1.25rem;
    text-align: center;
 }
 
 form {
+   background-color: white;
    padding: 2rem;
-}
-
-td {
-   padding: 0.25rem;
 }
 
 .altcontainer {
    background-color: var(--iceblue);
-   height: fit-content;
-}
-
-.bar {
-   text-decoration: none;
-   text-decoration-color: var(--textcolor);
+   height: 50vh;
+   margin: 0;
 }
 
 .container {
@@ -109,30 +88,11 @@ td {
    padding: 10px;
 }
 
-.experience {
-   padding: 5px;
-   border-spacing: 1px;
-   border: 1px solid rgba(0, 0, 0, 0.4);
-}
-
-.experience:hover {
-   background-color: #FFF5EB;
-}
-
 .flex {
    display: flex;
    flex: initial;
    flex-flow: row wrap;
    justify-content: space-evenly;
-}
-
-.heading {
-   padding-left: 1rem;
-   padding-right: 1rem;
-}
-
-.languages {
-   padding: 20rem 0 0 0;
 }
 
 .link {
@@ -169,36 +129,10 @@ td {
    transform: scale(0.96);
 }
 
-.projects_card {
-   background-color: rgba(33, 188, 231, 0.35);
-   border-radius: 1rem;
-   box-shadow: 0.5rem 0.5rem 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
-   margin: 2rem;
-   width: fit-content;
-
-}
-
-.projects_page {
-   background-image: none;
-   overflow-y: hidden;
-}
-
-.table {
-   border-spacing: 20px;
-}
-
 #mainTitle {
    padding: 25rem 0 0 0;
 }
 
 #message-box {
    height: 3rem;
-}
-
-#table_experience {
-   border-spacing: 1px;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;
-   width: 400px;
 }
